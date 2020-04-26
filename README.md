@@ -12,8 +12,15 @@
 #install dependencies
 yarn
 
-#start application at http://localhost:3333
-yarn dev
+#if you're running on iOS device
+cd ios
+pod install
+
+#start application for Android
+yarn android
+
+#start application for iOS
+yarn ios
 ```
 
 ### Environment
